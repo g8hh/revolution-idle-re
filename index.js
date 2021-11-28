@@ -1862,7 +1862,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.timeline.addTween(cjs.Tween.get(this.overt).wait(2));
 
 	// Слой_1
-	this.clickP = new cjs.Text("5 clicks to Prestige!", "10px 'Tahoma'");
+	this.clickP = new cjs.Text("点击5次以声望!", "10px 'Tahoma'");
 	this.clickP.name = "clickP";
 	this.clickP.textAlign = "center";
 	this.clickP.lineHeight = 14;
@@ -1870,7 +1870,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.clickP.parent = this;
 	this.clickP.setTransform(-0.2871,52.2213,0.8898,0.8898);
 
-	this.pmar = new cjs.Text("PM aft. pr.: x18", "12px 'Tahoma'");
+	this.pmar = new cjs.Text("声望后PM: x18", "12px 'Tahoma'");
 	this.pmar.name = "pmar";
 	this.pmar.textAlign = "center";
 	this.pmar.lineHeight = 17;
@@ -1879,7 +1879,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.pmar.setTransform(0.4629,26.6213,0.8898,0.8898);
 	this.pmar.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.pmnow = new cjs.Text("Prest. Mult x1", "12px 'Tahoma'");
+	this.pmnow = new cjs.Text("声望乘数 x1", "12px 'Tahoma'");
 	this.pmnow.name = "pmnow";
 	this.pmnow.textAlign = "center";
 	this.pmnow.lineHeight = 17;
@@ -1888,7 +1888,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.pmnow.setTransform(0.4637,7.85,0.8898,0.8898);
 	this.pmnow.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.xpar = new cjs.Text("Power aft. pr.: 1.66", "12px 'Tahoma'");
+	this.xpar = new cjs.Text("声望后的力量: 1.66", "12px 'Tahoma'");
 	this.xpar.name = "xpar";
 	this.xpar.textAlign = "center";
 	this.xpar.lineHeight = 17;
@@ -1897,7 +1897,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.xpar.setTransform(0.0629,-17.5287,0.8898,0.8898);
 	this.xpar.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.xpnow = new cjs.Text("Power now: 1", "12px 'Tahoma'");
+	this.xpnow = new cjs.Text("现在的力量: 1", "12px 'Tahoma'");
 	this.xpnow.name = "xpnow";
 	this.xpnow.textAlign = "center";
 	this.xpnow.lineHeight = 17;
@@ -8103,16 +8103,16 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			if ((prestige[1] > prestige[0]) || (prestige[3].div(prestige[2])).gt(1.0001)) {
 				this.upprest.prest.visible = true;
 				this.prrem.visible = true;
-				this.upprest.prest.xpnow.text = "Power now: " + Math.round(prestige[0]*1000)/1000;
-				this.upprest.prest.xpar.text = "Power aft. pr.: " + Math.round(prestige[1]*1000)/1000;
-				this.upprest.prest.pmnow.text = "Prest. Mult x" + format_short(prestige[2]);
-				this.upprest.prest.pmar.text = "PM aft. pr. x" + format_short(prestige[3]);
+				this.upprest.prest.xpnow.text = "现在的力量: " + Math.round(prestige[0]*1000)/1000;
+				this.upprest.prest.xpar.text = "声望后的力量: " + Math.round(prestige[1]*1000)/1000;
+				this.upprest.prest.pmnow.text = "声望乘数 x" + format_short(prestige[2]);
+				this.upprest.prest.pmar.text = "声望后的PM x" + format_short(prestige[3]);
 			}
 			else {
 				this.upprest.prest.visible = false;
 				this.prrem.visible = false;
 			}
-			this.upprest.prest.clickP.text = clicksPrestige + " clicks to Prestige!";
+			this.upprest.prest.clickP.text = clicksPrestige + " 次点击以声望!";
 			
 		}
 		
@@ -8248,21 +8248,21 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 		
 		this.addEventListener("tick", mainPromote.bind(this));
 		function mainPromote() {
-			this.promwindowt.promdes.p1.bas.text = "Basic Mult per Lap Mult: x" + format_short(promi[0]);
-			this.promwindowt.promdes.p1.ap.text = "BMpLM after promotion: x" + format_short(npromi[0]);
-			this.promwindowt.promdes.p1.clicktimes.text = "Click " + cProm1 + " times to Promote";
+			this.promwindowt.promdes.p1.bas.text = "基础乘数每圈乘数: x" + format_short(promi[0]);
+			this.promwindowt.promdes.p1.ap.text = "BMpLM在提升后: x" + format_short(npromi[0]);
+			this.promwindowt.promdes.p1.clicktimes.text = "点击 " + cProm1 + " 次以提升";
 			
-			this.promwindowt.promdes.p2.bas.text = "Basic Lap Speed Mult: x" + Math.round(promi[1]*100)/100;
-			this.promwindowt.promdes.p2.ap.text = "BLSM after promotion: x" + Math.round(npromi[1]*100)/100;
-			this.promwindowt.promdes.p2.clicktimes.text = "Click " + cProm2 + " times to Promote";
+			this.promwindowt.promdes.p2.bas.text = "基础圈速乘数: x" + Math.round(promi[1]*100)/100;
+			this.promwindowt.promdes.p2.ap.text = "BLSM在提升后: x" + Math.round(npromi[1]*100)/100;
+			this.promwindowt.promdes.p2.clicktimes.text = "点击 " + cProm2 + " 次以提升";
 		
-			this.promwindowt.promdes.p3.bas.text = "PM Gain Mult: x" + format_short(promi[2]);
-			this.promwindowt.promdes.p3.ap.text = "PMGM after promotion: x" + format_short(npromi[2]);
-			this.promwindowt.promdes.p3.clicktimes.text = "Click " + cProm3 + " times to Promote";
+			this.promwindowt.promdes.p3.bas.text = "PM 增益乘数: x" + format_short(promi[2]);
+			this.promwindowt.promdes.p3.ap.text = "PMGM在提升后: x" + format_short(npromi[2]);
+			this.promwindowt.promdes.p3.clicktimes.text = "点击 " + cProm3 + " 次以提升";
 		
-			this.promwindowt.promdes.p4.bas.text = "Max Amount Per Ascend: x" + promi[3];
-			this.promwindowt.promdes.p4.ap.text = "MAPA after promotion: x" + npromi[3];
-			this.promwindowt.promdes.p4.clicktimes.text = "Click " + cProm4 + " times to Promote";
+			this.promwindowt.promdes.p4.bas.text = "每次转生最大数量: x" + promi[3];
+			this.promwindowt.promdes.p4.ap.text = "MAPA 在提升后: x" + npromi[3];
+			this.promwindowt.promdes.p4.clicktimes.text = "点击 " + cProm4 + " 次以提升";
 			
 			
 			
@@ -8536,7 +8536,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 		    fps = 30;
 			fps2 = 30;
 			this.helpSplash.alpha = 1;
-			this.helpSplash.text = "Here was an error with an ad but anyway here is 1.5 mins of bonus time for you ;)";
+			this.helpSplash.text = "这是一个广告错误，但无论如何这里有 1.5 分钟的奖励时间给你 ;)";
 			speedUPtime_ib += 90;
 			respawn = 300;
 		}
@@ -8545,7 +8545,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 		    fps = 30;
 			fps2 = 30;
 			this.helpSplash.alpha = 1;
-			this.helpSplash.text = "Thanks very much for watching. Here is your bonus 5 mins!";
+			this.helpSplash.text = "非常感谢观看。 这是你的奖金 5 分钟!";
 			speedUPtime_ib += 300;
 			respawn = 300;
 		}
@@ -8593,7 +8593,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 				this.speedUP_b.visible = true;
 				this.spdUP.visible = true;
 				this.spdTime.visible = true;
-				this.spdUP.text = "SpeedUP (x5, max 1h)";
+				this.spdUP.text = "加速 (x5, 最多 1小时)";
 				this.spdTime.text = formatTime(speedUPtime_ib);
 				
 				if (sActive == true) {
@@ -8610,7 +8610,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 				this.spdTime.visible = false;
 				sActive = false;
 				if (crazysdk.hasAdblock) {
-					this.helpSplash.text = "Sorry, but you have adblock";
+					this.helpSplash.text = "抱歉，您有广告拦截";
 				}
 				this.adButton.visible = true;
 			}
