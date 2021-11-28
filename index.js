@@ -7376,9 +7376,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			this.normam.text = "+" + format_short(totalMult);
 			this.normult.text = Math.round(pPower*1000)/1000;
 			
-			this.normam2.text = "+" + format_short(rtotalMult) + " / rev.";
+			this.normam2.text = "+" + format_short(rtotalMult) + " / 旋转";
 			
-			this.revsc.text = Math.round(allLaps*10)/10 + " revs / 秒。";
+			this.revsc.text = Math.round(allLaps*10)/10 + " 旋转 / 秒。";
 			this.normam4.text = "+" + format_short(rtotalMult.times(allLaps)) + " / 秒。";
 			
 			
@@ -8737,7 +8737,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.revsc.setTransform(983.2545,309.4,1.0213,1.0213);
 	this.revsc.shadow = new cjs.Shadow("rgba(255,255,255,1)",0,0,1);
 
-	this.normam2 = new cjs.Text("+1.23 D / rev.  ", "16px 'Tahoma'", "#FFFFFF");
+	this.normam2 = new cjs.Text("+1.23 D / 旋转  ", "16px 'Tahoma'", "#FFFFFF");
 	this.normam2.name = "normam2";
 	this.normam2.textAlign = "center";
 	this.normam2.lineHeight = 21;
