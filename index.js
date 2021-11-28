@@ -1870,7 +1870,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.clickP.parent = this;
 	this.clickP.setTransform(-0.2871,52.2213,0.8898,0.8898);
 
-	this.pmar = new cjs.Text("声望后PM: x18", "12px 'Tahoma'");
+	this.pmar = new cjs.Text("声望后的声望乘数: x18", "12px 'Tahoma'");
 	this.pmar.name = "pmar";
 	this.pmar.textAlign = "center";
 	this.pmar.lineHeight = 17;
@@ -2020,7 +2020,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.ap.parent = this;
 	this.ap.setTransform(0.1,8.3);
 
-	this.bas = new cjs.Text("PM 增益倍数: x1", "10px 'Tahoma'");
+	this.bas = new cjs.Text("声望乘数增益倍数: x1", "10px 'Tahoma'");
 	this.bas.name = "bas";
 	this.bas.textAlign = "center";
 	this.bas.lineHeight = 14;
@@ -6758,7 +6758,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.promdes.name = "promdes";
 	this.promdes.setTransform(261.8,132.3,1.1017,1.1017,0,0,0,0.9,-0.8);
 
-	this.text = new cjs.Text("在这里你可以提升。 你将失去所有进度，\n包括 PM 和 力量，但你会获得一些新的奖励。\n这些奖励取决于你当前的 PM 数量。", "13px 'Tahoma'", "#010101");
+	this.text = new cjs.Text("在这里你可以提升。 你将失去所有进度，\n包括 声望乘数 和 力量，但你会获得一些新的奖励。\n这些奖励取决于你当前的 声望乘数 数量。", "13px 'Tahoma'", "#010101");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 18;
 	this.text.lineWidth = 457;
