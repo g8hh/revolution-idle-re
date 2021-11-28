@@ -1636,7 +1636,7 @@ p.nominalBounds = new cjs.Rectangle(9,-10.2,128,117);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой_1
-	this.text = new cjs.Text("max", "11px 'Tahoma'");
+	this.text = new cjs.Text("最大", "11px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 15;
 	this.text.lineWidth = 28;
@@ -1661,7 +1661,7 @@ p.nominalBounds = new cjs.Rectangle(-13.4,-8.6,26.9,17.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой_1
-	this.text = new cjs.Text("all", "14px 'Tahoma'");
+	this.text = new cjs.Text("全部", "14px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 19;
 	this.text.lineWidth = 28;
@@ -1811,7 +1811,7 @@ p.nominalBounds = new cjs.Rectangle(-12.9,-10.6,25.9,19.5);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Слой_1
-	this.text = new cjs.Text("Watch an ad to get free\n5 min of SpeedUP", "bold 21px 'Consolas'", "#003300");
+	this.text = new cjs.Text("观看广告即可免费获得\n5 分钟的 加速", "bold 21px 'Consolas'", "#003300");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 27;
 	this.text.parent = this;
@@ -1906,7 +1906,7 @@ p.nominalBounds = new cjs.Rectangle(-1.9,-1.9,166.1,48.5);
 	this.xpnow.setTransform(0.0637,-36.3,0.8898,0.8898);
 	this.xpnow.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.text = new cjs.Text("Prestige:", "16px 'Tahoma'");
+	this.text = new cjs.Text("声望:", "16px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 21;
 	this.text.lineWidth = 160;
@@ -1959,7 +1959,7 @@ p.nominalBounds = new cjs.Rectangle(-90.2,-75.5,193,163);
 	this.ap.parent = this;
 	this.ap.setTransform(0.1,8.3);
 
-	this.bas = new cjs.Text("Max Amount Per Ascend: 100", "10px 'Tahoma'");
+	this.bas = new cjs.Text("每次转生的最大数量: 100", "10px 'Tahoma'");
 	this.bas.name = "bas";
 	this.bas.textAlign = "center";
 	this.bas.lineHeight = 14;
@@ -1967,7 +1967,7 @@ p.nominalBounds = new cjs.Rectangle(-90.2,-75.5,193,163);
 	this.bas.parent = this;
 	this.bas.setTransform(0.05,-14.5);
 
-	this.text = new cjs.Text("Max Amount Promotion", "13px 'Tahoma'");
+	this.text = new cjs.Text("最大数量提升", "13px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 18;
 	this.text.lineWidth = 207;
@@ -2012,7 +2012,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.clicktimes.parent = this;
 	this.clicktimes.setTransform(-0.1892,28.25,0.6075,0.6075);
 
-	this.ap = new cjs.Text("PMGM after promotion: x1.25", "10px 'Tahoma'");
+	this.ap = new cjs.Text("提升后的PMGM: x1.25", "10px 'Tahoma'");
 	this.ap.name = "ap";
 	this.ap.textAlign = "center";
 	this.ap.lineHeight = 14;
@@ -2020,7 +2020,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.ap.parent = this;
 	this.ap.setTransform(0.1,8.3);
 
-	this.bas = new cjs.Text("PM Gain Mult: x1", "10px 'Tahoma'");
+	this.bas = new cjs.Text("PM 增益倍数: x1", "10px 'Tahoma'");
 	this.bas.name = "bas";
 	this.bas.textAlign = "center";
 	this.bas.lineHeight = 14;
@@ -2028,7 +2028,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.bas.parent = this;
 	this.bas.setTransform(0.05,-14.5);
 
-	this.text = new cjs.Text("Prestige Bonus Promotion", "13px 'Tahoma'");
+	this.text = new cjs.Text("声望奖励提升", "13px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 18;
 	this.text.lineWidth = 207;
@@ -2065,7 +2065,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.timeline.addTween(cjs.Tween.get(this.overt).wait(2));
 
 	// Слой_1
-	this.clicktimes = new cjs.Text("Click 5 times to Promote", "13px 'Tahoma'");
+	this.clicktimes = new cjs.Text("点击5次进行提升", "13px 'Tahoma'");
 	this.clicktimes.name = "clicktimes";
 	this.clicktimes.textAlign = "center";
 	this.clicktimes.lineHeight = 18;
@@ -2081,7 +2081,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.ap.parent = this;
 	this.ap.setTransform(0.1,8.3);
 
-	this.bas = new cjs.Text("Basic Lap Speed Mult: 100%", "10px 'Tahoma'");
+	this.bas = new cjs.Text("基础单圈速度乘数: 100%", "10px 'Tahoma'");
 	this.bas.name = "bas";
 	this.bas.textAlign = "center";
 	this.bas.lineHeight = 14;
@@ -2089,7 +2089,7 @@ p.nominalBounds = new cjs.Rectangle(-108.9,-43,221.2,86.2);
 	this.bas.parent = this;
 	this.bas.setTransform(0.05,-14.5);
 
-	this.text = new cjs.Text("Lap Speed Promotion", "13px 'Tahoma'");
+	this.text = new cjs.Text("单圈速度提升", "13px 'Tahoma'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 18;
 	this.text.lineWidth = 207;
@@ -5157,7 +5157,7 @@ p.nominalBounds = new cjs.Rectangle(-13.9,-10.6,27.6,20.299999999999997);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5208,7 +5208,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5259,7 +5259,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5310,7 +5310,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.15,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5361,7 +5361,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.15,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5412,7 +5412,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5463,7 +5463,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5514,7 +5514,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5565,7 +5565,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5619,7 +5619,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5670,7 +5670,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.15,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.1 [+9.9]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.1 [+9.9]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -5721,7 +5721,7 @@ p.nominalBounds = new cjs.Rectangle(-72.1,-27.7,151,62);
 	this.cost.setTransform(-0.1557,1.2,0.6514,0.6514);
 	this.cost.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,1);
 
-	this.lps = new cjs.Text("Lap/Sec : 0.21 [+19.93]", "16px 'Tahoma'");
+	this.lps = new cjs.Text("圈/秒 : 0.21 [+19.93]", "16px 'Tahoma'");
 	this.lps.name = "lps";
 	this.lps.textAlign = "center";
 	this.lps.lineHeight = 21;
@@ -6470,7 +6470,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.cost.parent = this;
 	this.cost.setTransform(0.0168,11.3,0.5046,0.5374);
 
-	this.help = new cjs.Text("Reset Lvls, but Mult/Lap x10", "bold 20px 'Tahoma'");
+	this.help = new cjs.Text("重置等级，但乘数/圈 x10", "bold 20px 'Tahoma'");
 	this.help.name = "help";
 	this.help.textAlign = "center";
 	this.help.lineHeight = 26;
@@ -6493,7 +6493,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.instance_4 = new lib.CachedBmp_5();
 	this.instance_4.setTransform(-33.4,-23.55,0.9749,0.9749);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance},{t:this.help,p:{x:0.5186,text:"Reset Lvls, but Mult/Lap x10",lineWidth:200}},{t:this.cost}]}).to({state:[{t:this.instance_1},{t:this.instance_2},{t:this.help,p:{x:0.7686,text:"Reset Lvls, but\nMult/Lap x10",lineWidth:201}},{t:this.cost}]},1).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.help,p:{x:0.7686,text:"Reset Lvls, but\nMult/Lap x10",lineWidth:201}},{t:this.cost}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance},{t:this.help,p:{x:0.5186,text:"重置等级，但乘数/圈 x10",lineWidth:200}},{t:this.cost}]}).to({state:[{t:this.instance_1},{t:this.instance_2},{t:this.help,p:{x:0.7686,text:"Reset Lvls, but\nMult/Lap x10",lineWidth:201}},{t:this.cost}]},1).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.help,p:{x:0.7686,text:"Reset Lvls, but\nMult/Lap x10",lineWidth:201}},{t:this.cost}]},1).wait(1));
 
 	// Слой_2
 	this.instance_5 = new lib.CachedBmp_96();
@@ -6758,14 +6758,14 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.promdes.name = "promdes";
 	this.promdes.setTransform(261.8,132.3,1.1017,1.1017,0,0,0,0.9,-0.8);
 
-	this.text = new cjs.Text("Here you can promote. You'll lose all your progress,\nincluding PM and Power, but you'll get some new bonuses.\nThese bonuses are depend on your current PM amount.", "13px 'Tahoma'", "#010101");
+	this.text = new cjs.Text("在这里你可以提升。 你将失去所有进度，\n包括 PM 和 力量，但你会获得一些新的奖励。\n这些奖励取决于你当前的 PM 数量。", "13px 'Tahoma'", "#010101");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 18;
 	this.text.lineWidth = 457;
 	this.text.parent = this;
 	this.text.setTransform(259.0778,274.5,1.1017,1.1017);
 
-	this.text_1 = new cjs.Text("Promotion Window", "16px 'Tahoma'");
+	this.text_1 = new cjs.Text("提升窗口", "16px 'Tahoma'");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 21;
 	this.text_1.parent = this;
@@ -7378,8 +7378,8 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			this.normam2.text = "+" + format_short(rtotalMult) + " / rev.";
 			
-			this.revsc.text = Math.round(allLaps*10)/10 + " revs / sec.";
-			this.normam4.text = "+" + format_short(rtotalMult.times(allLaps)) + " / sec.";
+			this.revsc.text = Math.round(allLaps*10)/10 + " revs / 秒。";
+			this.normam4.text = "+" + format_short(rtotalMult.times(allLaps)) + " / 秒。";
 			
 			
 			mapaAGet = nd(10).pow(promi[3]/100);
@@ -7410,15 +7410,15 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			this.he.helpless.colordown.gotoAndStop(overUpg);
-			this.he.helpless.st1.text = "Ascension #" + circles[overUpg].asc;
-			this.he.helpless.st2.text = "Level: " + circles[overUpg].level + "/" + circles[overUpg].maxLv;
+			this.he.helpless.st1.text = "转生 #" + circles[overUpg].asc;
+			this.he.helpless.st2.text = "等级: " + circles[overUpg].level + "/" + circles[overUpg].maxLv;
 			this.he.helpless.st3.text = "MPL: " + format_short(circles[overUpg].multPlus);
 			this.he.helpless.st4.visible = false;
 			
 			
-			this.overg.b1.lps.text = "Lap/Sec: " + rond(circles[0].laps) + " [+" + rond(circles[0].lapBase*circles[0].amo) + "]";
+			this.overg.b1.lps.text = "圈/秒: " + rond(circles[0].laps) + " [+" + rond(circles[0].lapBase*circles[0].amo) + "]";
 			this.overg.b1.cost.text = "$ " + format_short(circles[0].allcost);
-			this.overg.a1.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a1.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[0].level >= circles[0].maxLv) {
 				this.overg.a1.visible = true;
 				this.overg.a1.cost.text = "$ " + format_short(circles[0].ascCost);
@@ -7429,9 +7429,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b2.lps.text = "Lap/Sec: " + rond(circles[1].laps) + " [+" + rond(circles[1].lapBase*circles[1].amo) + "]";
+			this.overg.b2.lps.text = "圈/秒: " + rond(circles[1].laps) + " [+" + rond(circles[1].lapBase*circles[1].amo) + "]";
 			this.overg.b2.cost.text = "$ " + format_short(circles[1].allcost);
-			this.overg.a2.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a2.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[1].level >= circles[1].maxLv) {
 				this.overg.a2.visible = true;
 				this.overg.a2.cost.text = "$ " + format_short(circles[1].ascCost);
@@ -7442,9 +7442,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b3.lps.text = "Lap/Sec: " + rond(circles[2].laps) + " [+" + rond(circles[2].lapBase*circles[2].amo) + "]";
+			this.overg.b3.lps.text = "圈/秒: " + rond(circles[2].laps) + " [+" + rond(circles[2].lapBase*circles[2].amo) + "]";
 			this.overg.b3.cost.text = "$ " + format_short(circles[2].allcost);
-			this.overg.a3.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a3.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[2].level >= circles[2].maxLv) {
 				this.overg.a3.visible = true;
 				this.overg.a3.cost.text = "$ " + format_short(circles[2].ascCost);
@@ -7455,9 +7455,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b4.lps.text = "Lap/Sec: " + rond(circles[3].laps) + " [+" + rond(circles[3].lapBase*circles[3].amo) + "]";
+			this.overg.b4.lps.text = "圈/秒: " + rond(circles[3].laps) + " [+" + rond(circles[3].lapBase*circles[3].amo) + "]";
 			this.overg.b4.cost.text = "$ " + format_short(circles[3].allcost);
-			this.overg.a4.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a4.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[3].level >= circles[3].maxLv) {
 				this.overg.a4.visible = true;
 				this.overg.a4.cost.text = "$ " + format_short(circles[3].ascCost);
@@ -7468,9 +7468,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b5.lps.text = "Lap/Sec: " + rond(circles[4].laps) + " [+" + rond(circles[4].lapBase*circles[4].amo) + "]";
+			this.overg.b5.lps.text = "圈/秒: " + rond(circles[4].laps) + " [+" + rond(circles[4].lapBase*circles[4].amo) + "]";
 			this.overg.b5.cost.text = "$ " + format_short(circles[4].allcost);
-			this.overg.a5.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a5.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[4].level >= circles[4].maxLv) {
 				this.overg.a5.visible = true;
 				this.overg.a5.cost.text = "$ " + format_short(circles[4].ascCost);
@@ -7481,9 +7481,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b6.lps.text = "Lap/Sec: " + rond(circles[5].laps) + " [+" + rond(circles[5].lapBase*circles[5].amo) + "]";
+			this.overg.b6.lps.text = "圈/秒: " + rond(circles[5].laps) + " [+" + rond(circles[5].lapBase*circles[5].amo) + "]";
 			this.overg.b6.cost.text = "$ " + format_short(circles[5].allcost);
-			this.overg.a6.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a6.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[5].level >= circles[5].maxLv) {
 				this.overg.a6.visible = true;
 				this.overg.a6.cost.text = "$ " + format_short(circles[5].ascCost);
@@ -7494,9 +7494,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b7.lps.text = "Lap/Sec: " + rond(circles[6].laps) + " [+" + rond(circles[6].lapBase*circles[6].amo) + "]";
+			this.overg.b7.lps.text = "圈/秒: " + rond(circles[6].laps) + " [+" + rond(circles[6].lapBase*circles[6].amo) + "]";
 			this.overg.b7.cost.text = "$ " + format_short(circles[6].allcost);
-			this.overg.a7.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a7.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[6].level >= circles[6].maxLv) {
 				this.overg.a7.visible = true;
 				this.overg.a7.cost.text = "$ " + format_short(circles[6].ascCost);
@@ -7507,9 +7507,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b8.lps.text = "Lap/Sec: " + rond(circles[7].laps) + " [+" + rond(circles[7].lapBase*circles[7].amo) + "]";
+			this.overg.b8.lps.text = "圈/秒: " + rond(circles[7].laps) + " [+" + rond(circles[7].lapBase*circles[7].amo) + "]";
 			this.overg.b8.cost.text = "$ " + format_short(circles[7].allcost);
-			this.overg.a8.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a8.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[7].level >= circles[7].maxLv) {
 				this.overg.a8.visible = true;
 				this.overg.a8.cost.text = "$ " + format_short(circles[7].ascCost);
@@ -7520,9 +7520,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b9.lps.text = "Lap/Sec: " + rond(circles[8].laps) + " [+" + rond(circles[8].lapBase*circles[8].amo) + "]";
+			this.overg.b9.lps.text = "圈/秒: " + rond(circles[8].laps) + " [+" + rond(circles[8].lapBase*circles[8].amo) + "]";
 			this.overg.b9.cost.text = "$ " + format_short(circles[8].allcost);
-			this.overg.a9.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a9.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[8].level >= circles[8].maxLv) {
 				this.overg.a9.visible = true;
 				this.overg.a9.cost.text = "$ " + format_short(circles[8].ascCost);
@@ -7533,9 +7533,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b10.lps.text = "Lap/Sec: " + rond(circles[9].laps) + " [+" + rond(circles[9].lapBase*circles[9].amo) + "]";
+			this.overg.b10.lps.text = "圈/秒: " + rond(circles[9].laps) + " [+" + rond(circles[9].lapBase*circles[9].amo) + "]";
 			this.overg.b10.cost.text = "$ " + format_short(circles[9].allcost);
-			this.overg.a10.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a10.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[9].level >= circles[9].maxLv) {
 				this.overg.a10.visible = true;
 				this.overg.a10.cost.text = "$ " + format_short(circles[9].ascCost);
@@ -7546,9 +7546,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b11.lps.text = "Lap/Sec: " + rond(circles[10].laps) + " [+" + rond(circles[10].lapBase*circles[10].amo) + "]";
+			this.overg.b11.lps.text = "圈/秒: " + rond(circles[10].laps) + " [+" + rond(circles[10].lapBase*circles[10].amo) + "]";
 			this.overg.b11.cost.text = "$ " + format_short(circles[10].allcost);
-			this.overg.a11.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a11.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[10].level >= circles[10].maxLv) {
 				this.overg.a11.visible = true;
 				this.overg.a11.cost.text = "$ " + format_short(circles[10].ascCost);
@@ -7559,9 +7559,9 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 			
 			
 			
-			this.overg.b12.lps.text = "Lap/Sec: " + rond(circles[11].laps) + " [+" + rond(circles[11].lapBase*circles[11].amo) + "]";
+			this.overg.b12.lps.text = "圈/秒: " + rond(circles[11].laps) + " [+" + rond(circles[11].lapBase*circles[11].amo) + "]";
 			this.overg.b12.cost.text = "$ " + format_short(circles[11].allcost);
-			this.overg.a12.help.text = "Reset Lvls, but Mult/Lap x" + format_short(mapaAGet);
+			this.overg.a12.help.text = "重置等级，但乘数/圈 x" + format_short(mapaAGet);
 			if (circles[11].level >= circles[11].maxLv) {
 				this.overg.a12.visible = true;
 				this.overg.a12.cost.text = "$ " + format_short(circles[11].ascCost);
@@ -8664,7 +8664,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.chipG},{t:this.midAd}]}).wait(1));
 
 	// main
-	this.text = new cjs.Text("Hotkeys\n[a] - ascend all\n[b] - buy all", "bold 23px 'Tahoma'", "#BFBFBF");
+	this.text = new cjs.Text("快捷键\n[a] - 全部转生\n[b] - 全部购买", "bold 23px 'Tahoma'", "#BFBFBF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 30;
 	this.text.lineWidth = 241;
@@ -8679,7 +8679,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.upprest.name = "upprest";
 	this.upprest.setTransform(986.6,490.15);
 
-	this.prrem = new cjs.Text("You'll lose all your progress after prestige", "15px 'Tahoma'", "#FFFFFF");
+	this.prrem = new cjs.Text("声望后你会失去所有的进度", "15px 'Tahoma'", "#FFFFFF");
 	this.prrem.name = "prrem";
 	this.prrem.textAlign = "center";
 	this.prrem.lineHeight = 20;
@@ -8711,7 +8711,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.spdTime.parent = this;
 	this.spdTime.setTransform(1002.95,88.35,1.0485,1.0457);
 
-	this.spdUP = new cjs.Text("SpeedUP (x3, max 1h)", "bold 18px 'Consolas'", "#FFFFFF");
+	this.spdUP = new cjs.Text("加速 (x3, 最多 1小时)", "bold 18px 'Consolas'", "#FFFFFF");
 	this.spdUP.name = "spdUP";
 	this.spdUP.textAlign = "center";
 	this.spdUP.lineHeight = 23;
@@ -8719,7 +8719,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.spdUP.parent = this;
 	this.spdUP.setTransform(1004.2953,68,0.8015,0.7994);
 
-	this.normam4 = new cjs.Text("+1.23 D / sec.  ", "16px 'Tahoma'", "#FFFFFF");
+	this.normam4 = new cjs.Text("+1.23 D / 秒。  ", "16px 'Tahoma'", "#FFFFFF");
 	this.normam4.name = "normam4";
 	this.normam4.textAlign = "center";
 	this.normam4.lineHeight = 21;
@@ -8728,7 +8728,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.normam4.setTransform(985.0806,337,0.9989,0.9989);
 	this.normam4.shadow = new cjs.Shadow("rgba(255,255,255,1)",0,0,1);
 
-	this.revsc = new cjs.Text("183.6 revs / sec.", "16px 'Tahoma'", "#FFFFFF");
+	this.revsc = new cjs.Text("183.6 revs / 秒。", "16px 'Tahoma'", "#FFFFFF");
 	this.revsc.name = "revsc";
 	this.revsc.textAlign = "center";
 	this.revsc.lineHeight = 21;
