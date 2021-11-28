@@ -6412,7 +6412,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.cost.parent = this;
 	this.cost.setTransform(0.0168,11.3,0.5046,0.5374);
 
-	this.help = new cjs.Text("Reset Lvls, but\nMult/Lap x10", "bold 20px 'Tahoma'");
+	this.help = new cjs.Text("重置等级, 但是\n乘数/圈 x10", "bold 20px 'Tahoma'");
 	this.help.name = "help";
 	this.help.textAlign = "center";
 	this.help.lineHeight = 26;
@@ -8763,7 +8763,7 @@ p.nominalBounds = new cjs.Rectangle(-34.6,-25.2,70.2,50.599999999999994);
 	this.normam.setTransform(1027.219,207.55,1.5124,1.5124);
 	this.normam.shadow = new cjs.Shadow("rgba(255,255,255,1)",0,0,1);
 
-	this.text_1 = new cjs.Text("Game made by Denisolenison in May 2021 (Original in April 2017)", "12px 'Tahoma'", "#CCCCCC");
+	this.text_1 = new cjs.Text("游戏作者是 Denisolenison 开发于2021年5月 (原版开发于2017年4月)", "12px 'Tahoma'", "#CCCCCC");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 17;
 	this.text_1.lineWidth = 494;
